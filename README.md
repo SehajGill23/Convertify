@@ -1,4 +1,18 @@
-# Convertify — Video to MP3 Converter (Android + FastAPI)
+# Convertify — Video to MP3 Converter
+
+<p align="center">
+  <img src="./images/Convertify.png" alt="Convertify App Logo" width="220" />
+</p>
+
+<p align="center">
+  <b>A clean Android app for converting public video links into MP3 audio files.</b>
+</p>
+
+---
+
+Convertify is a mobile application that converts public video links from any platform into MP3 audio files. The Android app communicates with a Python FastAPI backend microservice that performs the audio extraction and MP3 conversion using `yt-dlp` and `FFmpeg`.
+
+Once converted, the backend streams the MP3 file back to the Android app, which then saves it directly into the device's Music directory using Android's `DownloadManager`.
 
 Convertify is a mobile application that converts public video links from any platform into MP3 audio files. The Android app communicates with a Python FastAPI backend microservice that performs the audio extraction and MP3 conversion using yt-dlp and FFmpeg. Once converted, the backend streams the MP3 file back to the Android app, which then saves it directly into the device's Music directory using Android's DownloadManager.
 
