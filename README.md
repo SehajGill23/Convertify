@@ -1,9 +1,8 @@
 # Convertify — Video to MP3 Converter
 
 <p align="center">
-  <img src="./images/Convertify.png" alt="Convertify App Logo" width="220" />
+  <img src="./images/Convertify.png" alt="Convertify App Logo" width="420" />
 </p>
-
 <p align="center">
   <b>A clean Android app for converting public video links into MP3 audio files.</b>
 </p>
